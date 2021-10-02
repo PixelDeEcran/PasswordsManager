@@ -68,7 +68,7 @@ export default function LoginApp() {
             fullWidth
             margin="normal"
             id="password"
-            label="Password"
+            label="Secret Key"
             name="password"
             autoFocus
             value={password}
