@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  --app-padding: 10px;
+
+  --background-color: #1f1f25;
+  --dark-background-color: #1a1a1f;
+  --surface-color: #2f2f38;
+
+  --on-primary-color: #e6b2c8;
+  --on-background-color: #ebebf5;
+  --on-surface-color: #bcbccf;
+
+  font-family: 'Roboto', sans-serif;
+  color: var(--on-background-color);
+}
+
+.draggable {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+.not-draggable, button, input, a, div[role="button"] {
+  -webkit-app-region: no-drag;
+}
