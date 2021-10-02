@@ -16,8 +16,5 @@ export default class AppManager {
     this.botsManager = new BotsManager(this.store, window);
     this.passwordsManager = new PasswordsManager(window, this.botsManager);
     this.botsManager.setPasswordsManager(this.passwordsManager);
-
-    // ODgzNjMyMDIxOTEyNTcxOTA1.YTMwcw.5wkZm-Tpk49QOZdAffHJ9pBQyj4
-    // 893793303571623946
   }
 }
